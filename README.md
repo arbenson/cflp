@@ -4,7 +4,7 @@ This code accompanies the paper
 
 - Core-fringe link prediction. Austin R. Benson and Jon Kleinberg. 2018.
 
-
+The code is written in Julia 1.0.
 
 ### Datasets and reproduce summary statistic tables
 
@@ -12,8 +12,10 @@ Public data is included in the repository. Here is code to reproduce the summary
 
 ```julia
 include("paper_tables.jl")
-summary_stats("email-Enron")   # --> 148 & 18444 & 1344 & 41883 (Table 1)
-summary_stats("call-Reality")  # --> 91 & 8927 & 127 & 10512  (Table 2)
+# Table 1 
+summary_stats("email-Enron")   # --> 148 & 18444 & 1344 & 41883
+# Table 2
+summary_stats("call-Reality")  # --> 91 & 8927 & 127 & 10512
 ```
 
 
