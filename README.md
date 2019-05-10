@@ -2,7 +2,7 @@
 
 This code accompanies the paper
 
-- [Core-fringe link prediction](https://arxiv.org/abs/1811.11540). Austin R. Benson and Jon Kleinberg. arXiv:1811.11540, 2018.
+- [Core-fringe link prediction](https://arxiv.org/abs/1811.11540). Austin R. Benson and Jon Kleinberg. Proceedings of the World Wide Web Conference (WWW), 2019.
 
 The code is written in Julia 1.0.
 
